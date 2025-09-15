@@ -1,0 +1,81 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Finetune Eval",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/finetune.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}",
+            "env": {
+                "CUDA_VISIBLE_DEVICES": "7"
+            },
+            "args": [
+                "--eval",
+                "--config", "configs/eval-objaverse.yaml"
+            ]
+        },
+        {
+            "name": "Evaluate Geometry",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/evaluation/evaluate_geometry.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}",
+            "env": {
+                "CUDA_VISIBLE_DEVICES": "7"
+            },
+            "args": [
+                "--mesh_paths", "./samples/objaverse_samples/*.glb",
+                "--ground_truth_paths", "/data3/ran/dso/objaverse/hf-objaverse-v1/glbs"
+            ]
+        },
+        {
+            "name": "Generate Synthetic Data",
+            "type": "python",
+            "request": "launch",
+            "module": "data_preprocessing.generate_synthetic_data",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}",
+            "env": {
+                "CUDA_VISIBLE_DEVICES": "6"
+            },
+            "args": [
+                "--num_samples", "4",
+                "--save_extra",
+                "--output_dir", "/home/ran.ding/messy-kitchen/dso/image-to-3D-eval-stability-under-gravity/train_outputs",
+                "--image_paths", "/home/ran.ding/messy-kitchen/dso/image-to-3D-eval-stability-under-gravity/animals/*/*.png"
+            ]
+        },
+        {
+            "name": "Finetune DPO",
+            "type": "python",
+            "request": "launch",
+            "module": "accelerate.commands.launch",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}",
+            "env": {
+                "CUDA_VISIBLE_DEVICES": "7"
+            },
+            "args": [
+                "--num_processes=1",
+                "--mixed_precision=bf16",
+                "finetune.py",
+                "--config", "configs/dpo.yaml"
+            ]
+        },
+        {
+            "name": "Augment with Simulation Feedback",
+            "type": "python",
+            "request": "launch",
+            "module": "data_preprocessing.augment_with_simulation_feedback",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}",
+            "args": [
+                "--root_dir", "train_data/train_outputs/train_demo",
+                "--num_models_per_image", "4"
+            ]
+        }
+    ]
+}
