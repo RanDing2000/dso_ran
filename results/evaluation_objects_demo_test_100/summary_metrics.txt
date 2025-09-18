@@ -1,0 +1,114 @@
+PartCrafter Evaluation Summary
+Generated: 2025-09-16 21:38:39
+==================================================
+
+OVERALL STATISTICS:
+  Total cases: 100
+  Successful cases: 0
+  Failed cases: 100
+  Success rate: 0.0%
+
+FAILED CASES:
+  43b2292af0774ca7b349f97843e99715_combined: string is not a file: `datasets/messy_kitchen_scenes_part2/43b2292af0774ca7b349f97843e99715_combined.glb`
+  a1b93ae5165944ab9273bb9a43a80f5e_combined: string is not a file: `datasets/messy_kitchen_scenes_part2/a1b93ae5165944ab9273bb9a43a80f5e_combined.glb`
+  22ad2640177f430a83d311f69421c9c2_combined: string is not a file: `datasets/messy_kitchen_scenes_part2/22ad2640177f430a83d311f69421c9c2_combined.glb`
+  6d995b557c2a4def8fc12a02a018e7c4_combined: string is not a file: `datasets/messy_kitchen_scenes_part2/6d995b557c2a4def8fc12a02a018e7c4_combined.glb`
+  fcb0203b0e164802a1f7ff6d3cc66297_combined: string is not a file: `datasets/messy_kitchen_scenes_part2/fcb0203b0e164802a1f7ff6d3cc66297_combined.glb`
+  8d7accbb99494a8faeed30ee8e06590d_combined: string is not a file: `datasets/messy_kitchen_scenes_part2/8d7accbb99494a8faeed30ee8e06590d_combined.glb`
+  449a13e2ace2420da1256698b14d17d8_combined: string is not a file: `datasets/messy_kitchen_scenes_part2/449a13e2ace2420da1256698b14d17d8_combined.glb`
+  57955e61f1d949ec8840bedfa09687aa_combined: string is not a file: `datasets/messy_kitchen_scenes_part2/57955e61f1d949ec8840bedfa09687aa_combined.glb`
+  4d40da26f14f4dd280d37757c5954c64_combined: string is not a file: `datasets/messy_kitchen_scenes_part2/4d40da26f14f4dd280d37757c5954c64_combined.glb`
+  0551bb67da864b81a22d6224b94badc1_combined: string is not a file: `datasets/messy_kitchen_scenes_part2/0551bb67da864b81a22d6224b94badc1_combined.glb`
+  555657a51eea473bb5f5b10f4a6615ec_combined: string is not a file: `datasets/messy_kitchen_scenes_part2/555657a51eea473bb5f5b10f4a6615ec_combined.glb`
+  223b93bca3324a539406fa35b5687950_combined: string is not a file: `datasets/messy_kitchen_scenes_part2/223b93bca3324a539406fa35b5687950_combined.glb`
+  452091c5e78443dabd5a4f427a3d4fef_combined: string is not a file: `datasets/messy_kitchen_scenes_part2/452091c5e78443dabd5a4f427a3d4fef_combined.glb`
+  6c6887561f014e6dabb16ebc290fc2ed_combined: string is not a file: `datasets/messy_kitchen_scenes_part2/6c6887561f014e6dabb16ebc290fc2ed_combined.glb`
+  2607c0b462024cfb94f13edcd17d5e85_combined: string is not a file: `datasets/messy_kitchen_scenes_part2/2607c0b462024cfb94f13edcd17d5e85_combined.glb`
+  f521c8b3bf394576ada1d2a83ee397a4_combined: string is not a file: `datasets/messy_kitchen_scenes_part2/f521c8b3bf394576ada1d2a83ee397a4_combined.glb`
+  cd9473525ba04d33b69e844873cbdfdf_combined: string is not a file: `datasets/messy_kitchen_scenes_part2/cd9473525ba04d33b69e844873cbdfdf_combined.glb`
+  975a1aee27864784b20e4eb1126131a8_combined: string is not a file: `datasets/messy_kitchen_scenes_part2/975a1aee27864784b20e4eb1126131a8_combined.glb`
+  6d753c99e7ce4925b70091fa1229a986_combined: string is not a file: `datasets/messy_kitchen_scenes_part2/6d753c99e7ce4925b70091fa1229a986_combined.glb`
+  08e44a96b5e64551a2f113d0c87170d8_combined: string is not a file: `datasets/messy_kitchen_scenes_part2/08e44a96b5e64551a2f113d0c87170d8_combined.glb`
+  f7e6b027427a4c20b5fb2d458c54ea0a_combined: string is not a file: `datasets/messy_kitchen_scenes_part2/f7e6b027427a4c20b5fb2d458c54ea0a_combined.glb`
+  856c2a0452be41aab9cddb23b7288888_combined: string is not a file: `datasets/messy_kitchen_scenes_part2/856c2a0452be41aab9cddb23b7288888_combined.glb`
+  290931cfb8574986ad8ec3ab4143ed21_combined: string is not a file: `datasets/messy_kitchen_scenes_part2/290931cfb8574986ad8ec3ab4143ed21_combined.glb`
+  1d102311e2b649ca9fccc27276960720_combined: string is not a file: `datasets/messy_kitchen_scenes_part2/1d102311e2b649ca9fccc27276960720_combined.glb`
+  f0a11018c30047b7b3a606714711025b_combined: string is not a file: `datasets/messy_kitchen_scenes_part2/f0a11018c30047b7b3a606714711025b_combined.glb`
+  6992aa4d9d2241ef8ad27b9b3441d2a7_combined: string is not a file: `datasets/messy_kitchen_scenes_part2/6992aa4d9d2241ef8ad27b9b3441d2a7_combined.glb`
+  fe566e78e1854ebb8954dccb9c19e8ae_combined: string is not a file: `datasets/messy_kitchen_scenes_part2/fe566e78e1854ebb8954dccb9c19e8ae_combined.glb`
+  9ee6ce6b11d74bdcbf7c74f2fde352f4_combined: string is not a file: `datasets/messy_kitchen_scenes_part2/9ee6ce6b11d74bdcbf7c74f2fde352f4_combined.glb`
+  e56e740c3a204a128245201506c9b8ab_combined: string is not a file: `datasets/messy_kitchen_scenes_part2/e56e740c3a204a128245201506c9b8ab_combined.glb`
+  8c8b070f79334b289b6f84f32eda66dd_combined: string is not a file: `datasets/messy_kitchen_scenes_part2/8c8b070f79334b289b6f84f32eda66dd_combined.glb`
+  6668f0cfd0e64576afc8f98cd1357432_combined: string is not a file: `datasets/messy_kitchen_scenes_part2/6668f0cfd0e64576afc8f98cd1357432_combined.glb`
+  c3a4c85f568d4dce8a3ac7fcaa5c1c5b_combined: string is not a file: `datasets/messy_kitchen_scenes_part2/c3a4c85f568d4dce8a3ac7fcaa5c1c5b_combined.glb`
+  39beb84de6174df3aee7631ec9099ca2_combined: string is not a file: `datasets/messy_kitchen_scenes_part2/39beb84de6174df3aee7631ec9099ca2_combined.glb`
+  b713ba0d6ade4109a13afc6f96143b21_combined: string is not a file: `datasets/messy_kitchen_scenes_part2/b713ba0d6ade4109a13afc6f96143b21_combined.glb`
+  d4e1d4e404764738b51b5d38162a5de2_combined: string is not a file: `datasets/messy_kitchen_scenes_part2/d4e1d4e404764738b51b5d38162a5de2_combined.glb`
+  3a3571105b04496e8f15d333386f41e0_combined: string is not a file: `datasets/messy_kitchen_scenes_part2/3a3571105b04496e8f15d333386f41e0_combined.glb`
+  2c12f72ab9e847ff9b4e36616a3f2001_combined: string is not a file: `datasets/messy_kitchen_scenes_part2/2c12f72ab9e847ff9b4e36616a3f2001_combined.glb`
+  dee0f7eda73e403e8cca402580c117a4_combined: string is not a file: `datasets/messy_kitchen_scenes_part2/dee0f7eda73e403e8cca402580c117a4_combined.glb`
+  ce8a5567b0d148a0a2ee7949b4dc00d4_combined: string is not a file: `datasets/messy_kitchen_scenes_part2/ce8a5567b0d148a0a2ee7949b4dc00d4_combined.glb`
+  e9e1d895c3d94845a7e19cf22e9c1afc_combined: string is not a file: `datasets/messy_kitchen_scenes_part2/e9e1d895c3d94845a7e19cf22e9c1afc_combined.glb`
+  01e4bcb493f14d5cbca88c9c74562b1b_combined: string is not a file: `datasets/messy_kitchen_scenes_part2/01e4bcb493f14d5cbca88c9c74562b1b_combined.glb`
+  d18952b980994439a0309fc1e7e9c17f_combined: string is not a file: `datasets/messy_kitchen_scenes_part2/d18952b980994439a0309fc1e7e9c17f_combined.glb`
+  73788c05b2024fcc94a0d6cf8f2fb3f0_combined: string is not a file: `datasets/messy_kitchen_scenes_part2/73788c05b2024fcc94a0d6cf8f2fb3f0_combined.glb`
+  4d7ac6169ad248a6bbb3e7b8de8999c3_combined: string is not a file: `datasets/messy_kitchen_scenes_part2/4d7ac6169ad248a6bbb3e7b8de8999c3_combined.glb`
+  1d2cd48e1497420d87aa323dfa3f7df1_combined: string is not a file: `datasets/messy_kitchen_scenes_part2/1d2cd48e1497420d87aa323dfa3f7df1_combined.glb`
+  2520962bb4424e8aa0e0e9dc22cfc664_combined: string is not a file: `datasets/messy_kitchen_scenes_part2/2520962bb4424e8aa0e0e9dc22cfc664_combined.glb`
+  3cae19a12cd443d5a48d537f86e8f708_combined: string is not a file: `datasets/messy_kitchen_scenes_part2/3cae19a12cd443d5a48d537f86e8f708_combined.glb`
+  776fb473dd7549bdbb59ee65df60edec_combined: string is not a file: `datasets/messy_kitchen_scenes_part2/776fb473dd7549bdbb59ee65df60edec_combined.glb`
+  150342d3e80f4a209b3327be31a16898_combined: string is not a file: `datasets/messy_kitchen_scenes_part2/150342d3e80f4a209b3327be31a16898_combined.glb`
+  15e06a709d8944b285ae63ec1543de7c_combined: string is not a file: `datasets/messy_kitchen_scenes_part2/15e06a709d8944b285ae63ec1543de7c_combined.glb`
+  55af08b254ad4d1298e41b21b9edf5e9_combined: string is not a file: `datasets/messy_kitchen_scenes_part2/55af08b254ad4d1298e41b21b9edf5e9_combined.glb`
+  437bf163fd384471b7cfd643f4cde3dc_combined: string is not a file: `datasets/messy_kitchen_scenes_part2/437bf163fd384471b7cfd643f4cde3dc_combined.glb`
+  a56dc84e8b5342758d68b63cdecc54f9_combined: string is not a file: `datasets/messy_kitchen_scenes_part2/a56dc84e8b5342758d68b63cdecc54f9_combined.glb`
+  f9f8fa6b1a66439789e398db6f8d1eac_combined: string is not a file: `datasets/messy_kitchen_scenes_part2/f9f8fa6b1a66439789e398db6f8d1eac_combined.glb`
+  8fa2f1cb1dcc402ea2861f97f765a507_combined: string is not a file: `datasets/messy_kitchen_scenes_part2/8fa2f1cb1dcc402ea2861f97f765a507_combined.glb`
+  d6a805e816544cfb9d365131d7933f90_combined: string is not a file: `datasets/messy_kitchen_scenes_part2/d6a805e816544cfb9d365131d7933f90_combined.glb`
+  85e107e1ccea4fc2962dcaec82bb425f_combined: string is not a file: `datasets/messy_kitchen_scenes_part2/85e107e1ccea4fc2962dcaec82bb425f_combined.glb`
+  20e43bc9c4684a92a9a3d554a6aec9a9_combined: string is not a file: `datasets/messy_kitchen_scenes_part2/20e43bc9c4684a92a9a3d554a6aec9a9_combined.glb`
+  135c91c022d841c2be30829b650e3c17_combined: string is not a file: `datasets/messy_kitchen_scenes_part2/135c91c022d841c2be30829b650e3c17_combined.glb`
+  770190d2e3514f808516802125208efc_combined: string is not a file: `datasets/messy_kitchen_scenes_part2/770190d2e3514f808516802125208efc_combined.glb`
+  4e4d4c63f2744710b62c4eb9f8710857_combined: string is not a file: `datasets/messy_kitchen_scenes_part2/4e4d4c63f2744710b62c4eb9f8710857_combined.glb`
+  d90d47de512a4c0e8c8bd67e525c5e5b_combined: string is not a file: `datasets/messy_kitchen_scenes_part2/d90d47de512a4c0e8c8bd67e525c5e5b_combined.glb`
+  1f5f0a11197240c58f925ffebe365b3f_combined: string is not a file: `datasets/messy_kitchen_scenes_part2/1f5f0a11197240c58f925ffebe365b3f_combined.glb`
+  6ae00ec89ca344c1b8165e833b5a390d_combined: string is not a file: `datasets/messy_kitchen_scenes_part2/6ae00ec89ca344c1b8165e833b5a390d_combined.glb`
+  f7b97e725be2447785afe93018803397_combined: string is not a file: `datasets/messy_kitchen_scenes_part2/f7b97e725be2447785afe93018803397_combined.glb`
+  d1424c58ded54d999a4abd579a0661fe_combined: string is not a file: `datasets/messy_kitchen_scenes_part2/d1424c58ded54d999a4abd579a0661fe_combined.glb`
+  24871bb5047c424d8eacb94fdfe4ce36_combined: string is not a file: `datasets/messy_kitchen_scenes_part2/24871bb5047c424d8eacb94fdfe4ce36_combined.glb`
+  5a3234f0abb144f1a648e00051393908_combined: string is not a file: `datasets/messy_kitchen_scenes_part2/5a3234f0abb144f1a648e00051393908_combined.glb`
+  6b593970edd44382b5b437a395d3c188_combined: string is not a file: `datasets/messy_kitchen_scenes_part2/6b593970edd44382b5b437a395d3c188_combined.glb`
+  54f756f13d7a461a9258eb09ad13d229_combined: string is not a file: `datasets/messy_kitchen_scenes_part2/54f756f13d7a461a9258eb09ad13d229_combined.glb`
+  35042bf801784213aa87188e4a2a39c1_combined: string is not a file: `datasets/messy_kitchen_scenes_part2/35042bf801784213aa87188e4a2a39c1_combined.glb`
+  48daf3b4a72749a6b5f496c4b70aa199_combined: string is not a file: `datasets/messy_kitchen_scenes_part2/48daf3b4a72749a6b5f496c4b70aa199_combined.glb`
+  25e506ddd65a4097a35ccee9e23be939_combined: string is not a file: `datasets/messy_kitchen_scenes_part2/25e506ddd65a4097a35ccee9e23be939_combined.glb`
+  2959e0f26a0646f78936474eea96edac_combined: string is not a file: `datasets/messy_kitchen_scenes_part2/2959e0f26a0646f78936474eea96edac_combined.glb`
+  013d1306de1940349303329a25e11737_combined: string is not a file: `datasets/messy_kitchen_scenes_part2/013d1306de1940349303329a25e11737_combined.glb`
+  67a50e38429d4502aef1a3a1a29a0935_combined: string is not a file: `datasets/messy_kitchen_scenes_part2/67a50e38429d4502aef1a3a1a29a0935_combined.glb`
+  75c4cf5da15e4651a19fb5bd7c11284d_combined: string is not a file: `datasets/messy_kitchen_scenes_part2/75c4cf5da15e4651a19fb5bd7c11284d_combined.glb`
+  0f589dc5f87f42ceb0465893f6cfc4f2_combined: string is not a file: `datasets/messy_kitchen_scenes_part2/0f589dc5f87f42ceb0465893f6cfc4f2_combined.glb`
+  30f465899b7e4967990e426b3e3e7672_combined: string is not a file: `datasets/messy_kitchen_scenes_part2/30f465899b7e4967990e426b3e3e7672_combined.glb`
+  a643ccbf5fff40d598723d04c904972f_combined: string is not a file: `datasets/messy_kitchen_scenes_part2/a643ccbf5fff40d598723d04c904972f_combined.glb`
+  ea2c8075a3dc4a3b9e00341633f29cbe_combined: string is not a file: `datasets/messy_kitchen_scenes_part2/ea2c8075a3dc4a3b9e00341633f29cbe_combined.glb`
+  a2a6b8535bfc4da4834c9a2c04e16fa2_combined: string is not a file: `datasets/messy_kitchen_scenes_part2/a2a6b8535bfc4da4834c9a2c04e16fa2_combined.glb`
+  4215af12951642498d14c5be5752b411_combined: string is not a file: `datasets/messy_kitchen_scenes_part2/4215af12951642498d14c5be5752b411_combined.glb`
+  81e5867e9845426eabb52479e131c91e_combined: string is not a file: `datasets/messy_kitchen_scenes_part2/81e5867e9845426eabb52479e131c91e_combined.glb`
+  84f5ba0e90214e6b8e4a4e5b9bc52dfa_combined: string is not a file: `datasets/messy_kitchen_scenes_part2/84f5ba0e90214e6b8e4a4e5b9bc52dfa_combined.glb`
+  4bab2bdd6f2a48089023fd6b05f3b49c_combined: string is not a file: `datasets/messy_kitchen_scenes_part2/4bab2bdd6f2a48089023fd6b05f3b49c_combined.glb`
+  a2b34a1edab74ae2966087ddc0338313_combined: string is not a file: `datasets/messy_kitchen_scenes_part2/a2b34a1edab74ae2966087ddc0338313_combined.glb`
+  785d884f4cbc41e3a515cf84375c371f_combined: string is not a file: `datasets/messy_kitchen_scenes_part2/785d884f4cbc41e3a515cf84375c371f_combined.glb`
+  030fbee7a4dd4f158ffd29af81872921_combined: string is not a file: `datasets/messy_kitchen_scenes_part2/030fbee7a4dd4f158ffd29af81872921_combined.glb`
+  ba1866ad5734487fa51e592e83056bbf_combined: string is not a file: `datasets/messy_kitchen_scenes_part2/ba1866ad5734487fa51e592e83056bbf_combined.glb`
+  879db4920faa4842bc44f019a2f1cb3c_combined: string is not a file: `datasets/messy_kitchen_scenes_part2/879db4920faa4842bc44f019a2f1cb3c_combined.glb`
+  3deebfa294ab43359f3d4ba50f40b938_combined: string is not a file: `datasets/messy_kitchen_scenes_part2/3deebfa294ab43359f3d4ba50f40b938_combined.glb`
+  6dcabaca9d2e406e9f6268f325539e33_combined: string is not a file: `datasets/messy_kitchen_scenes_part2/6dcabaca9d2e406e9f6268f325539e33_combined.glb`
+  627e4076dc8045c99dc92f468526f367_combined: string is not a file: `datasets/messy_kitchen_scenes_part2/627e4076dc8045c99dc92f468526f367_combined.glb`
+  691f5a67bb114a40886dd12d8627102c_combined: string is not a file: `datasets/messy_kitchen_scenes_part2/691f5a67bb114a40886dd12d8627102c_combined.glb`
+  d1869b73cd264de995a259ea43502a6c_combined: string is not a file: `datasets/messy_kitchen_scenes_part2/d1869b73cd264de995a259ea43502a6c_combined.glb`
+  a5a6c01a85e24de0aea2e0fcb3f5ba7f_combined: string is not a file: `datasets/messy_kitchen_scenes_part2/a5a6c01a85e24de0aea2e0fcb3f5ba7f_combined.glb`
+  b4428678c0f8468da1519bbf972b4c03_combined: string is not a file: `datasets/messy_kitchen_scenes_part2/b4428678c0f8468da1519bbf972b4c03_combined.glb`
+  15cae21ed78d4eb7af5ef5bf4d10cd1f_combined: string is not a file: `datasets/messy_kitchen_scenes_part2/15cae21ed78d4eb7af5ef5bf4d10cd1f_combined.glb`
+  08266b78e92b4a919eb54ccd37c46abe_combined: string is not a file: `datasets/messy_kitchen_scenes_part2/08266b78e92b4a919eb54ccd37c46abe_combined.glb`
+
+EVALUATION COMPLETED
+Results saved to: ./results/evaluation_objects_demo_test_100

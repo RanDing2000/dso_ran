@@ -76,6 +76,40 @@
                 "--root_dir", "train_data/train_outputs/train_demo",
                 "--num_models_per_image", "4"
             ]
+        },
+        {
+            "name": "PartCrafter DPO Training",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/submodules/partcrafter_ran/scripts/train_partcrafter_dpo.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/submodules/partcrafter_ran",
+            "env": {
+                "CUDA_VISIBLE_DEVICES": "7"
+            },
+            // "args": [
+            //     "--max_samples", "50",
+            //     "--batch_size", "1",
+            //     "--learning_rate", "5e-5",
+            //     "--max_train_steps", "1000",
+            //     "--dpo_beta", "0.1",
+            //     "--output_dir", "./outputs",
+            //     "--exp_name", "partcrafter_dpo_test",
+            //     "--log_interval", "10",
+            //     "--save_interval", "100",
+            //     "--seed", "42"
+            // ]
+        },
+        {
+            "name": "Test PartCrafter DPO Setup",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/submodules/partcrafter_ran/scripts/test_dpo_training.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/submodules/partcrafter_ran",
+            "env": {
+                "CUDA_VISIBLE_DEVICES": "7"
+            }
         }
     ]
 }

@@ -1,0 +1,16 @@
+__pycache__
+wandb
+output
+preprocessed_data
+pretrained_weights
+results
+output_partcrafter
+runs
+datasets
+data
+submodules
+Notes
+assets
+*.glb
+*.ply
+assets/

@@ -411,3 +411,7 @@ DSO-finetuned-TRELLIS
 plots/
 
 tmp.md
+pretrained_weights/
+submodules/partcrafter_ran/pretrained_weights/
+*.glb
+submodules/partcrafter_ran/assets

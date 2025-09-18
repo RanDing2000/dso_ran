@@ -1,0 +1,208 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "PartCrafter Training Debug (Single GPU)",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/src/train_partcrafter.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}",
+            "env": {
+                "CUDA_VISIBLE_DEVICES": "4",
+                "WANDB_API_KEY": ""
+            },
+            "args": [
+                "--config", "configs/1_100_objaverse/mp8_nt512_v2.yaml",
+                "--use_ema",
+                "--gradient_accumulation_steps", "4",
+                "--output_dir", "1_100_objaverse",
+                "--tag", "scaleup_mp8_nt512",
+                "--attention_viz", "100:attention_viz"
+            ],
+            "justMyCode": false
+        },
+        {
+            "name": "PartCrafter Eval (GPU 2)",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/scripts/eval.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}",
+            "env": {
+              "CUDA_VISIBLE_DEVICES": "2"
+            },
+            "args": [
+              // 在这里填你的评测参数，例如：
+              // "--config", "configs/your_eval.yaml",
+              // "--ckpt", "path/to/checkpoint.pt",
+              // "--output_dir", "runs/eval_gpu2"
+            ],
+            "justMyCode": false
+        },
+
+        {
+            "name": "PartCrafter Inference With Attention",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/scripts/inference_partcrafter_with_attention.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}",
+            "env": {
+                "CUDA_VISIBLE_DEVICES": "6"
+            },
+            "args": [
+                "--image_path", "assets/images_scene/np6_0192a842-531c-419a-923e-28db4add8656_DiningRoom-31158.png",
+                "--num_parts", "6",
+                "--attention_viz",
+                "--output_dir", "./results",
+                "--tag", "dining_room_with_attention",
+                "--render"
+            ],
+            "justMyCode": false
+        },
+        
+        {
+            "name": "PartCrafter MessyKitchen Training",
+            "type": "python",
+            "request": "launch",
+            "module": "accelerate.commands.launch",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}",
+            "env": {
+                "CUDA_VISIBLE_DEVICES": "5",
+                "WANDB_API_KEY": ""
+            },
+            "args": [
+                "--num_machines", "1",
+                // "--num_processes", "2",
+                "--num_processes", "1",
+                "--machine_rank", "0",
+                "src/train_partcrafter.py",
+                "--pin_memory",
+                "--allow_tf32",
+                "--config", "configs/messy_kitchen/part_1/mp8_nt512.yaml",
+                "--use_ema",
+                "--gradient_accumulation_steps", "4",
+                "--output_dir", "runs/messy_kitchen/part_1",
+                "--tag", "messy_kitchen_part1_mp8_nt512_dual"
+            ],
+            "justMyCode": false
+        },
+        {
+            "name": "PartCrafter Training Debug (Dual GPU)",
+            "type": "python",
+            "request": "launch",
+            "module": "accelerate.commands.launch",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}",
+            "env": {
+                "CUDA_VISIBLE_DEVICES": "4,5",
+                "WANDB_API_KEY": ""
+            },
+            "args": [
+                "--num_machines", "1",
+                "--num_processes", "2",
+                "--machine_rank", "0",
+                "src/train_partcrafter.py",
+                "--pin_memory",
+                "--allow_tf32",
+                "--config", "configs/1_100_objaverse/mp8_nt512_v2.yaml",
+                "--use_ema",
+                "--gradient_accumulation_steps", "4",
+                "--output_dir", "1_100_objaverse",
+                "--tag", "scaleup_mp8_nt512"
+            ],
+            "justMyCode": false
+        },
+        {
+            "name": "PartCrafter Inference (Attention Viz)",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/scripts/inference_partcrafter_scene.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}",
+            "env": {
+                "CUDA_VISIBLE_DEVICES": "6"
+            },
+            "args": [
+                "--image_path", "assets/images_scene/np6_0192a842-531c-419a-923e-28db4add8656_DiningRoom-31158.png",
+                "--num_parts", "6",
+                "--tag", "dining_room_test",
+                "--attention_viz",
+                "--render"
+            ],
+            "justMyCode": false
+        },
+        {
+            "name": "PartCrafter Preprocess Objects",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/datasets/preprocess/preprocess.py",
+            // "python": "/data3/ran/miniconda3/envs/partcrafter/bin/python",  
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}",
+            "env": {
+                "CUDA_VISIBLE_DEVICES": "6"
+            },
+            "args": [
+                "--input", "assets/objects",
+                "--output", "preprocessed_data"
+            ],
+            "justMyCode": false
+        },
+        {
+            "name": "PartCrafter Render Single Object",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/datasets/preprocess/render.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}",
+            "env": {
+                "CUDA_VISIBLE_DEVICES": "6"
+            },
+            "args": [
+                "--input", "assets/objects/scissors.glb",
+                "--output", "preprocessed_data"
+            ],
+            "justMyCode": false
+        },
+        {
+            "name": "Scene Stack Analysis (Verbose)",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/datasets/statistics_scripts/scene_stack_analysis.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}",
+            "env": {
+                "CUDA_VISIBLE_DEVICES": ""
+            },
+            "args": [
+                "--roots", "datasets/messy_kitchen_scenes_part1", "datasets/messy_kitchen_scenes_part2",
+                "--output_dir", "results/stack_analysis",
+                "--xy_iou_thr", "0.08",
+                "--z_gap", "0.01",
+                "--verbose"
+            ],
+            "justMyCode": false
+        },
+        {
+            "name": "Scene Stack Analysis (Fast)",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/datasets/statistics_scripts/scene_stack_analysis.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}",
+            "env": {
+                "CUDA_VISIBLE_DEVICES": ""
+            },
+            "args": [
+                "--roots", "datasets/messy_kitchen_scenes_part1", "datasets/messy_kitchen_scenes_part2",
+                "--output_dir", "results/stack_analysis",
+                "--xy_iou_thr", "0.08",
+                "--z_gap", "0.01"
+            ],
+            "justMyCode": false
+        }                            
+    ]
+}

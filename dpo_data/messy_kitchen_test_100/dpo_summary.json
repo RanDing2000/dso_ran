@@ -1,0 +1,849 @@
+{
+  "dataset_name": "messy_kitchen_test_100",
+  "seeds_used": [
+    0,
+    42,
+    123,
+    456,
+    789
+  ],
+  "total_scenes": 100,
+  "total_generations": 500,
+  "successful_generations": 0,
+  "failed_generations": 500,
+  "success_rate": 0.0,
+  "per_seed_summary": {
+    "0": {
+      "total_scenes": 100,
+      "successful_scenes": 0,
+      "failed_scenes": 100,
+      "success_rate": 0.0
+    },
+    "42": {
+      "total_scenes": 100,
+      "successful_scenes": 0,
+      "failed_scenes": 100,
+      "success_rate": 0.0
+    },
+    "123": {
+      "total_scenes": 100,
+      "successful_scenes": 0,
+      "failed_scenes": 100,
+      "success_rate": 0.0
+    },
+    "456": {
+      "total_scenes": 100,
+      "successful_scenes": 0,
+      "failed_scenes": 100,
+      "success_rate": 0.0
+    },
+    "789": {
+      "total_scenes": 100,
+      "successful_scenes": 0,
+      "failed_scenes": 100,
+      "success_rate": 0.0
+    }
+  },
+  "per_scene_summary": {
+    "dee0f7eda73e403e8cca402580c117a4_combined": {
+      "scene_index": 1,
+      "num_parts": 7,
+      "total_seeds": 5,
+      "successful_seeds": 0,
+      "failed_seeds": 5,
+      "success_rate": 0.0
+    },
+    "2959e0f26a0646f78936474eea96edac_combined": {
+      "scene_index": 2,
+      "num_parts": 7,
+      "total_seeds": 5,
+      "successful_seeds": 0,
+      "failed_seeds": 5,
+      "success_rate": 0.0
+    },
+    "75c4cf5da15e4651a19fb5bd7c11284d_combined": {
+      "scene_index": 3,
+      "num_parts": 7,
+      "total_seeds": 5,
+      "successful_seeds": 0,
+      "failed_seeds": 5,
+      "success_rate": 0.0
+    },
+    "449a13e2ace2420da1256698b14d17d8_combined": {
+      "scene_index": 4,
+      "num_parts": 6,
+      "total_seeds": 5,
+      "successful_seeds": 0,
+      "failed_seeds": 5,
+      "success_rate": 0.0
+    },
+    "57955e61f1d949ec8840bedfa09687aa_combined": {
+      "scene_index": 5,
+      "num_parts": 6,
+      "total_seeds": 5,
+      "successful_seeds": 0,
+      "failed_seeds": 5,
+      "success_rate": 0.0
+    },
+    "4d40da26f14f4dd280d37757c5954c64_combined": {
+      "scene_index": 6,
+      "num_parts": 6,
+      "total_seeds": 5,
+      "successful_seeds": 0,
+      "failed_seeds": 5,
+      "success_rate": 0.0
+    },
+    "452091c5e78443dabd5a4f427a3d4fef_combined": {
+      "scene_index": 7,
+      "num_parts": 6,
+      "total_seeds": 5,
+      "successful_seeds": 0,
+      "failed_seeds": 5,
+      "success_rate": 0.0
+    },
+    "ce8a5567b0d148a0a2ee7949b4dc00d4_combined": {
+      "scene_index": 8,
+      "num_parts": 6,
+      "total_seeds": 5,
+      "successful_seeds": 0,
+      "failed_seeds": 5,
+      "success_rate": 0.0
+    },
+    "0f589dc5f87f42ceb0465893f6cfc4f2_combined": {
+      "scene_index": 9,
+      "num_parts": 6,
+      "total_seeds": 5,
+      "successful_seeds": 0,
+      "failed_seeds": 5,
+      "success_rate": 0.0
+    },
+    "a2a6b8535bfc4da4834c9a2c04e16fa2_combined": {
+      "scene_index": 10,
+      "num_parts": 6,
+      "total_seeds": 5,
+      "successful_seeds": 0,
+      "failed_seeds": 5,
+      "success_rate": 0.0
+    },
+    "f521c8b3bf394576ada1d2a83ee397a4_combined": {
+      "scene_index": 11,
+      "num_parts": 5,
+      "total_seeds": 5,
+      "successful_seeds": 0,
+      "failed_seeds": 5,
+      "success_rate": 0.0
+    },
+    "1d2cd48e1497420d87aa323dfa3f7df1_combined": {
+      "scene_index": 12,
+      "num_parts": 5,
+      "total_seeds": 5,
+      "successful_seeds": 0,
+      "failed_seeds": 5,
+      "success_rate": 0.0
+    },
+    "15e06a709d8944b285ae63ec1543de7c_combined": {
+      "scene_index": 13,
+      "num_parts": 5,
+      "total_seeds": 5,
+      "successful_seeds": 0,
+      "failed_seeds": 5,
+      "success_rate": 0.0
+    },
+    "437bf163fd384471b7cfd643f4cde3dc_combined": {
+      "scene_index": 14,
+      "num_parts": 5,
+      "total_seeds": 5,
+      "successful_seeds": 0,
+      "failed_seeds": 5,
+      "success_rate": 0.0
+    },
+    "f9f8fa6b1a66439789e398db6f8d1eac_combined": {
+      "scene_index": 15,
+      "num_parts": 5,
+      "total_seeds": 5,
+      "successful_seeds": 0,
+      "failed_seeds": 5,
+      "success_rate": 0.0
+    },
+    "4e4d4c63f2744710b62c4eb9f8710857_combined": {
+      "scene_index": 16,
+      "num_parts": 5,
+      "total_seeds": 5,
+      "successful_seeds": 0,
+      "failed_seeds": 5,
+      "success_rate": 0.0
+    },
+    "d1424c58ded54d999a4abd579a0661fe_combined": {
+      "scene_index": 17,
+      "num_parts": 5,
+      "total_seeds": 5,
+      "successful_seeds": 0,
+      "failed_seeds": 5,
+      "success_rate": 0.0
+    },
+    "24871bb5047c424d8eacb94fdfe4ce36_combined": {
+      "scene_index": 18,
+      "num_parts": 5,
+      "total_seeds": 5,
+      "successful_seeds": 0,
+      "failed_seeds": 5,
+      "success_rate": 0.0
+    },
+    "6b593970edd44382b5b437a395d3c188_combined": {
+      "scene_index": 19,
+      "num_parts": 5,
+      "total_seeds": 5,
+      "successful_seeds": 0,
+      "failed_seeds": 5,
+      "success_rate": 0.0
+    },
+    "35042bf801784213aa87188e4a2a39c1_combined": {
+      "scene_index": 20,
+      "num_parts": 5,
+      "total_seeds": 5,
+      "successful_seeds": 0,
+      "failed_seeds": 5,
+      "success_rate": 0.0
+    },
+    "013d1306de1940349303329a25e11737_combined": {
+      "scene_index": 21,
+      "num_parts": 5,
+      "total_seeds": 5,
+      "successful_seeds": 0,
+      "failed_seeds": 5,
+      "success_rate": 0.0
+    },
+    "6dcabaca9d2e406e9f6268f325539e33_combined": {
+      "scene_index": 22,
+      "num_parts": 5,
+      "total_seeds": 5,
+      "successful_seeds": 0,
+      "failed_seeds": 5,
+      "success_rate": 0.0
+    },
+    "b4428678c0f8468da1519bbf972b4c03_combined": {
+      "scene_index": 23,
+      "num_parts": 5,
+      "total_seeds": 5,
+      "successful_seeds": 0,
+      "failed_seeds": 5,
+      "success_rate": 0.0
+    },
+    "6d995b557c2a4def8fc12a02a018e7c4_combined": {
+      "scene_index": 24,
+      "num_parts": 4,
+      "total_seeds": 5,
+      "successful_seeds": 0,
+      "failed_seeds": 5,
+      "success_rate": 0.0
+    },
+    "555657a51eea473bb5f5b10f4a6615ec_combined": {
+      "scene_index": 25,
+      "num_parts": 4,
+      "total_seeds": 5,
+      "successful_seeds": 0,
+      "failed_seeds": 5,
+      "success_rate": 0.0
+    },
+    "223b93bca3324a539406fa35b5687950_combined": {
+      "scene_index": 26,
+      "num_parts": 4,
+      "total_seeds": 5,
+      "successful_seeds": 0,
+      "failed_seeds": 5,
+      "success_rate": 0.0
+    },
+    "cd9473525ba04d33b69e844873cbdfdf_combined": {
+      "scene_index": 27,
+      "num_parts": 4,
+      "total_seeds": 5,
+      "successful_seeds": 0,
+      "failed_seeds": 5,
+      "success_rate": 0.0
+    },
+    "08e44a96b5e64551a2f113d0c87170d8_combined": {
+      "scene_index": 28,
+      "num_parts": 4,
+      "total_seeds": 5,
+      "successful_seeds": 0,
+      "failed_seeds": 5,
+      "success_rate": 0.0
+    },
+    "f0a11018c30047b7b3a606714711025b_combined": {
+      "scene_index": 29,
+      "num_parts": 4,
+      "total_seeds": 5,
+      "successful_seeds": 0,
+      "failed_seeds": 5,
+      "success_rate": 0.0
+    },
+    "e56e740c3a204a128245201506c9b8ab_combined": {
+      "scene_index": 30,
+      "num_parts": 4,
+      "total_seeds": 5,
+      "successful_seeds": 0,
+      "failed_seeds": 5,
+      "success_rate": 0.0
+    },
+    "6668f0cfd0e64576afc8f98cd1357432_combined": {
+      "scene_index": 31,
+      "num_parts": 4,
+      "total_seeds": 5,
+      "successful_seeds": 0,
+      "failed_seeds": 5,
+      "success_rate": 0.0
+    },
+    "73788c05b2024fcc94a0d6cf8f2fb3f0_combined": {
+      "scene_index": 32,
+      "num_parts": 4,
+      "total_seeds": 5,
+      "successful_seeds": 0,
+      "failed_seeds": 5,
+      "success_rate": 0.0
+    },
+    "2520962bb4424e8aa0e0e9dc22cfc664_combined": {
+      "scene_index": 33,
+      "num_parts": 4,
+      "total_seeds": 5,
+      "successful_seeds": 0,
+      "failed_seeds": 5,
+      "success_rate": 0.0
+    },
+    "776fb473dd7549bdbb59ee65df60edec_combined": {
+      "scene_index": 34,
+      "num_parts": 4,
+      "total_seeds": 5,
+      "successful_seeds": 0,
+      "failed_seeds": 5,
+      "success_rate": 0.0
+    },
+    "150342d3e80f4a209b3327be31a16898_combined": {
+      "scene_index": 35,
+      "num_parts": 4,
+      "total_seeds": 5,
+      "successful_seeds": 0,
+      "failed_seeds": 5,
+      "success_rate": 0.0
+    },
+    "85e107e1ccea4fc2962dcaec82bb425f_combined": {
+      "scene_index": 36,
+      "num_parts": 4,
+      "total_seeds": 5,
+      "successful_seeds": 0,
+      "failed_seeds": 5,
+      "success_rate": 0.0
+    },
+    "20e43bc9c4684a92a9a3d554a6aec9a9_combined": {
+      "scene_index": 37,
+      "num_parts": 4,
+      "total_seeds": 5,
+      "successful_seeds": 0,
+      "failed_seeds": 5,
+      "success_rate": 0.0
+    },
+    "135c91c022d841c2be30829b650e3c17_combined": {
+      "scene_index": 38,
+      "num_parts": 4,
+      "total_seeds": 5,
+      "successful_seeds": 0,
+      "failed_seeds": 5,
+      "success_rate": 0.0
+    },
+    "f7b97e725be2447785afe93018803397_combined": {
+      "scene_index": 39,
+      "num_parts": 4,
+      "total_seeds": 5,
+      "successful_seeds": 0,
+      "failed_seeds": 5,
+      "success_rate": 0.0
+    },
+    "5a3234f0abb144f1a648e00051393908_combined": {
+      "scene_index": 40,
+      "num_parts": 4,
+      "total_seeds": 5,
+      "successful_seeds": 0,
+      "failed_seeds": 5,
+      "success_rate": 0.0
+    },
+    "48daf3b4a72749a6b5f496c4b70aa199_combined": {
+      "scene_index": 41,
+      "num_parts": 4,
+      "total_seeds": 5,
+      "successful_seeds": 0,
+      "failed_seeds": 5,
+      "success_rate": 0.0
+    },
+    "785d884f4cbc41e3a515cf84375c371f_combined": {
+      "scene_index": 42,
+      "num_parts": 4,
+      "total_seeds": 5,
+      "successful_seeds": 0,
+      "failed_seeds": 5,
+      "success_rate": 0.0
+    },
+    "879db4920faa4842bc44f019a2f1cb3c_combined": {
+      "scene_index": 43,
+      "num_parts": 4,
+      "total_seeds": 5,
+      "successful_seeds": 0,
+      "failed_seeds": 5,
+      "success_rate": 0.0
+    },
+    "3deebfa294ab43359f3d4ba50f40b938_combined": {
+      "scene_index": 44,
+      "num_parts": 4,
+      "total_seeds": 5,
+      "successful_seeds": 0,
+      "failed_seeds": 5,
+      "success_rate": 0.0
+    },
+    "691f5a67bb114a40886dd12d8627102c_combined": {
+      "scene_index": 45,
+      "num_parts": 4,
+      "total_seeds": 5,
+      "successful_seeds": 0,
+      "failed_seeds": 5,
+      "success_rate": 0.0
+    },
+    "d1869b73cd264de995a259ea43502a6c_combined": {
+      "scene_index": 46,
+      "num_parts": 4,
+      "total_seeds": 5,
+      "successful_seeds": 0,
+      "failed_seeds": 5,
+      "success_rate": 0.0
+    },
+    "22ad2640177f430a83d311f69421c9c2_combined": {
+      "scene_index": 47,
+      "num_parts": 3,
+      "total_seeds": 5,
+      "successful_seeds": 0,
+      "failed_seeds": 5,
+      "success_rate": 0.0
+    },
+    "fcb0203b0e164802a1f7ff6d3cc66297_combined": {
+      "scene_index": 48,
+      "num_parts": 3,
+      "total_seeds": 5,
+      "successful_seeds": 0,
+      "failed_seeds": 5,
+      "success_rate": 0.0
+    },
+    "856c2a0452be41aab9cddb23b7288888_combined": {
+      "scene_index": 49,
+      "num_parts": 3,
+      "total_seeds": 5,
+      "successful_seeds": 0,
+      "failed_seeds": 5,
+      "success_rate": 0.0
+    },
+    "1d102311e2b649ca9fccc27276960720_combined": {
+      "scene_index": 50,
+      "num_parts": 3,
+      "total_seeds": 5,
+      "successful_seeds": 0,
+      "failed_seeds": 5,
+      "success_rate": 0.0
+    },
+    "9ee6ce6b11d74bdcbf7c74f2fde352f4_combined": {
+      "scene_index": 51,
+      "num_parts": 3,
+      "total_seeds": 5,
+      "successful_seeds": 0,
+      "failed_seeds": 5,
+      "success_rate": 0.0
+    },
+    "c3a4c85f568d4dce8a3ac7fcaa5c1c5b_combined": {
+      "scene_index": 52,
+      "num_parts": 3,
+      "total_seeds": 5,
+      "successful_seeds": 0,
+      "failed_seeds": 5,
+      "success_rate": 0.0
+    },
+    "d4e1d4e404764738b51b5d38162a5de2_combined": {
+      "scene_index": 53,
+      "num_parts": 3,
+      "total_seeds": 5,
+      "successful_seeds": 0,
+      "failed_seeds": 5,
+      "success_rate": 0.0
+    },
+    "2c12f72ab9e847ff9b4e36616a3f2001_combined": {
+      "scene_index": 54,
+      "num_parts": 3,
+      "total_seeds": 5,
+      "successful_seeds": 0,
+      "failed_seeds": 5,
+      "success_rate": 0.0
+    },
+    "a56dc84e8b5342758d68b63cdecc54f9_combined": {
+      "scene_index": 55,
+      "num_parts": 3,
+      "total_seeds": 5,
+      "successful_seeds": 0,
+      "failed_seeds": 5,
+      "success_rate": 0.0
+    },
+    "8fa2f1cb1dcc402ea2861f97f765a507_combined": {
+      "scene_index": 56,
+      "num_parts": 3,
+      "total_seeds": 5,
+      "successful_seeds": 0,
+      "failed_seeds": 5,
+      "success_rate": 0.0
+    },
+    "ea2c8075a3dc4a3b9e00341633f29cbe_combined": {
+      "scene_index": 57,
+      "num_parts": 3,
+      "total_seeds": 5,
+      "successful_seeds": 0,
+      "failed_seeds": 5,
+      "success_rate": 0.0
+    },
+    "4215af12951642498d14c5be5752b411_combined": {
+      "scene_index": 58,
+      "num_parts": 3,
+      "total_seeds": 5,
+      "successful_seeds": 0,
+      "failed_seeds": 5,
+      "success_rate": 0.0
+    },
+    "81e5867e9845426eabb52479e131c91e_combined": {
+      "scene_index": 59,
+      "num_parts": 3,
+      "total_seeds": 5,
+      "successful_seeds": 0,
+      "failed_seeds": 5,
+      "success_rate": 0.0
+    },
+    "84f5ba0e90214e6b8e4a4e5b9bc52dfa_combined": {
+      "scene_index": 60,
+      "num_parts": 3,
+      "total_seeds": 5,
+      "successful_seeds": 0,
+      "failed_seeds": 5,
+      "success_rate": 0.0
+    },
+    "030fbee7a4dd4f158ffd29af81872921_combined": {
+      "scene_index": 61,
+      "num_parts": 3,
+      "total_seeds": 5,
+      "successful_seeds": 0,
+      "failed_seeds": 5,
+      "success_rate": 0.0
+    },
+    "a5a6c01a85e24de0aea2e0fcb3f5ba7f_combined": {
+      "scene_index": 62,
+      "num_parts": 3,
+      "total_seeds": 5,
+      "successful_seeds": 0,
+      "failed_seeds": 5,
+      "success_rate": 0.0
+    },
+    "15cae21ed78d4eb7af5ef5bf4d10cd1f_combined": {
+      "scene_index": 63,
+      "num_parts": 3,
+      "total_seeds": 5,
+      "successful_seeds": 0,
+      "failed_seeds": 5,
+      "success_rate": 0.0
+    },
+    "43b2292af0774ca7b349f97843e99715_combined": {
+      "scene_index": 64,
+      "num_parts": 2,
+      "total_seeds": 5,
+      "successful_seeds": 0,
+      "failed_seeds": 5,
+      "success_rate": 0.0
+    },
+    "0551bb67da864b81a22d6224b94badc1_combined": {
+      "scene_index": 65,
+      "num_parts": 2,
+      "total_seeds": 5,
+      "successful_seeds": 0,
+      "failed_seeds": 5,
+      "success_rate": 0.0
+    },
+    "2607c0b462024cfb94f13edcd17d5e85_combined": {
+      "scene_index": 66,
+      "num_parts": 2,
+      "total_seeds": 5,
+      "successful_seeds": 0,
+      "failed_seeds": 5,
+      "success_rate": 0.0
+    },
+    "6d753c99e7ce4925b70091fa1229a986_combined": {
+      "scene_index": 67,
+      "num_parts": 2,
+      "total_seeds": 5,
+      "successful_seeds": 0,
+      "failed_seeds": 5,
+      "success_rate": 0.0
+    },
+    "fe566e78e1854ebb8954dccb9c19e8ae_combined": {
+      "scene_index": 68,
+      "num_parts": 2,
+      "total_seeds": 5,
+      "successful_seeds": 0,
+      "failed_seeds": 5,
+      "success_rate": 0.0
+    },
+    "39beb84de6174df3aee7631ec9099ca2_combined": {
+      "scene_index": 69,
+      "num_parts": 2,
+      "total_seeds": 5,
+      "successful_seeds": 0,
+      "failed_seeds": 5,
+      "success_rate": 0.0
+    },
+    "b713ba0d6ade4109a13afc6f96143b21_combined": {
+      "scene_index": 70,
+      "num_parts": 2,
+      "total_seeds": 5,
+      "successful_seeds": 0,
+      "failed_seeds": 5,
+      "success_rate": 0.0
+    },
+    "01e4bcb493f14d5cbca88c9c74562b1b_combined": {
+      "scene_index": 71,
+      "num_parts": 2,
+      "total_seeds": 5,
+      "successful_seeds": 0,
+      "failed_seeds": 5,
+      "success_rate": 0.0
+    },
+    "d6a805e816544cfb9d365131d7933f90_combined": {
+      "scene_index": 72,
+      "num_parts": 2,
+      "total_seeds": 5,
+      "successful_seeds": 0,
+      "failed_seeds": 5,
+      "success_rate": 0.0
+    },
+    "54f756f13d7a461a9258eb09ad13d229_combined": {
+      "scene_index": 73,
+      "num_parts": 2,
+      "total_seeds": 5,
+      "successful_seeds": 0,
+      "failed_seeds": 5,
+      "success_rate": 0.0
+    },
+    "67a50e38429d4502aef1a3a1a29a0935_combined": {
+      "scene_index": 74,
+      "num_parts": 2,
+      "total_seeds": 5,
+      "successful_seeds": 0,
+      "failed_seeds": 5,
+      "success_rate": 0.0
+    },
+    "30f465899b7e4967990e426b3e3e7672_combined": {
+      "scene_index": 75,
+      "num_parts": 2,
+      "total_seeds": 5,
+      "successful_seeds": 0,
+      "failed_seeds": 5,
+      "success_rate": 0.0
+    },
+    "a643ccbf5fff40d598723d04c904972f_combined": {
+      "scene_index": 76,
+      "num_parts": 2,
+      "total_seeds": 5,
+      "successful_seeds": 0,
+      "failed_seeds": 5,
+      "success_rate": 0.0
+    },
+    "4bab2bdd6f2a48089023fd6b05f3b49c_combined": {
+      "scene_index": 77,
+      "num_parts": 2,
+      "total_seeds": 5,
+      "successful_seeds": 0,
+      "failed_seeds": 5,
+      "success_rate": 0.0
+    },
+    "a2b34a1edab74ae2966087ddc0338313_combined": {
+      "scene_index": 78,
+      "num_parts": 2,
+      "total_seeds": 5,
+      "successful_seeds": 0,
+      "failed_seeds": 5,
+      "success_rate": 0.0
+    },
+    "a1b93ae5165944ab9273bb9a43a80f5e_combined": {
+      "scene_index": 79,
+      "num_parts": 1,
+      "total_seeds": 5,
+      "successful_seeds": 0,
+      "failed_seeds": 5,
+      "success_rate": 0.0
+    },
+    "8d7accbb99494a8faeed30ee8e06590d_combined": {
+      "scene_index": 80,
+      "num_parts": 1,
+      "total_seeds": 5,
+      "successful_seeds": 0,
+      "failed_seeds": 5,
+      "success_rate": 0.0
+    },
+    "6c6887561f014e6dabb16ebc290fc2ed_combined": {
+      "scene_index": 81,
+      "num_parts": 1,
+      "total_seeds": 5,
+      "successful_seeds": 0,
+      "failed_seeds": 5,
+      "success_rate": 0.0
+    },
+    "975a1aee27864784b20e4eb1126131a8_combined": {
+      "scene_index": 82,
+      "num_parts": 1,
+      "total_seeds": 5,
+      "successful_seeds": 0,
+      "failed_seeds": 5,
+      "success_rate": 0.0
+    },
+    "f7e6b027427a4c20b5fb2d458c54ea0a_combined": {
+      "scene_index": 83,
+      "num_parts": 1,
+      "total_seeds": 5,
+      "successful_seeds": 0,
+      "failed_seeds": 5,
+      "success_rate": 0.0
+    },
+    "290931cfb8574986ad8ec3ab4143ed21_combined": {
+      "scene_index": 84,
+      "num_parts": 1,
+      "total_seeds": 5,
+      "successful_seeds": 0,
+      "failed_seeds": 5,
+      "success_rate": 0.0
+    },
+    "6992aa4d9d2241ef8ad27b9b3441d2a7_combined": {
+      "scene_index": 85,
+      "num_parts": 1,
+      "total_seeds": 5,
+      "successful_seeds": 0,
+      "failed_seeds": 5,
+      "success_rate": 0.0
+    },
+    "8c8b070f79334b289b6f84f32eda66dd_combined": {
+      "scene_index": 86,
+      "num_parts": 1,
+      "total_seeds": 5,
+      "successful_seeds": 0,
+      "failed_seeds": 5,
+      "success_rate": 0.0
+    },
+    "3a3571105b04496e8f15d333386f41e0_combined": {
+      "scene_index": 87,
+      "num_parts": 1,
+      "total_seeds": 5,
+      "successful_seeds": 0,
+      "failed_seeds": 5,
+      "success_rate": 0.0
+    },
+    "e9e1d895c3d94845a7e19cf22e9c1afc_combined": {
+      "scene_index": 88,
+      "num_parts": 1,
+      "total_seeds": 5,
+      "successful_seeds": 0,
+      "failed_seeds": 5,
+      "success_rate": 0.0
+    },
+    "d18952b980994439a0309fc1e7e9c17f_combined": {
+      "scene_index": 89,
+      "num_parts": 1,
+      "total_seeds": 5,
+      "successful_seeds": 0,
+      "failed_seeds": 5,
+      "success_rate": 0.0
+    },
+    "4d7ac6169ad248a6bbb3e7b8de8999c3_combined": {
+      "scene_index": 90,
+      "num_parts": 1,
+      "total_seeds": 5,
+      "successful_seeds": 0,
+      "failed_seeds": 5,
+      "success_rate": 0.0
+    },
+    "3cae19a12cd443d5a48d537f86e8f708_combined": {
+      "scene_index": 91,
+      "num_parts": 1,
+      "total_seeds": 5,
+      "successful_seeds": 0,
+      "failed_seeds": 5,
+      "success_rate": 0.0
+    },
+    "55af08b254ad4d1298e41b21b9edf5e9_combined": {
+      "scene_index": 92,
+      "num_parts": 1,
+      "total_seeds": 5,
+      "successful_seeds": 0,
+      "failed_seeds": 5,
+      "success_rate": 0.0
+    },
+    "770190d2e3514f808516802125208efc_combined": {
+      "scene_index": 93,
+      "num_parts": 1,
+      "total_seeds": 5,
+      "successful_seeds": 0,
+      "failed_seeds": 5,
+      "success_rate": 0.0
+    },
+    "d90d47de512a4c0e8c8bd67e525c5e5b_combined": {
+      "scene_index": 94,
+      "num_parts": 1,
+      "total_seeds": 5,
+      "successful_seeds": 0,
+      "failed_seeds": 5,
+      "success_rate": 0.0
+    },
+    "1f5f0a11197240c58f925ffebe365b3f_combined": {
+      "scene_index": 95,
+      "num_parts": 1,
+      "total_seeds": 5,
+      "successful_seeds": 0,
+      "failed_seeds": 5,
+      "success_rate": 0.0
+    },
+    "6ae00ec89ca344c1b8165e833b5a390d_combined": {
+      "scene_index": 96,
+      "num_parts": 1,
+      "total_seeds": 5,
+      "successful_seeds": 0,
+      "failed_seeds": 5,
+      "success_rate": 0.0
+    },
+    "25e506ddd65a4097a35ccee9e23be939_combined": {
+      "scene_index": 97,
+      "num_parts": 1,
+      "total_seeds": 5,
+      "successful_seeds": 0,
+      "failed_seeds": 5,
+      "success_rate": 0.0
+    },
+    "ba1866ad5734487fa51e592e83056bbf_combined": {
+      "scene_index": 98,
+      "num_parts": 1,
+      "total_seeds": 5,
+      "successful_seeds": 0,
+      "failed_seeds": 5,
+      "success_rate": 0.0
+    },
+    "627e4076dc8045c99dc92f468526f367_combined": {
+      "scene_index": 99,
+      "num_parts": 1,
+      "total_seeds": 5,
+      "successful_seeds": 0,
+      "failed_seeds": 5,
+      "success_rate": 0.0
+    },
+    "08266b78e92b4a919eb54ccd37c46abe_combined": {
+      "scene_index": 100,
+      "num_parts": 1,
+      "total_seeds": 5,
+      "successful_seeds": 0,
+      "failed_seeds": 5,
+      "success_rate": 0.0
+    }
+  }
+}

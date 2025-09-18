@@ -1,0 +1,5 @@
+Attention visualization system enabled
+Frequency: 100
+Directory: attention_viz
+Absolute Path: /home/ran.ding/messy-kitchen/PartCrafter/attention_viz
+Full visualization enabled with gradient checkpointing workaround

@@ -1,0 +1,45 @@
+{
+  "scene_index": 86,
+  "case_name": "8c8b070f79334b289b6f84f32eda66dd_combined",
+  "num_parts": 1,
+  "total_seeds": 5,
+  "successful_seeds": 0,
+  "failed_seeds": 5,
+  "detailed_results": [
+    {
+      "case_name": "8c8b070f79334b289b6f84f32eda66dd_combined",
+      "num_parts": 1,
+      "seed": 0,
+      "error": "string is not a file: `datasets/messy_kitchen_scenes_part2/8c8b070f79334b289b6f84f32eda66dd_combined.glb`",
+      "success": false
+    },
+    {
+      "case_name": "8c8b070f79334b289b6f84f32eda66dd_combined",
+      "num_parts": 1,
+      "seed": 42,
+      "error": "string is not a file: `datasets/messy_kitchen_scenes_part2/8c8b070f79334b289b6f84f32eda66dd_combined.glb`",
+      "success": false
+    },
+    {
+      "case_name": "8c8b070f79334b289b6f84f32eda66dd_combined",
+      "num_parts": 1,
+      "seed": 123,
+      "error": "string is not a file: `datasets/messy_kitchen_scenes_part2/8c8b070f79334b289b6f84f32eda66dd_combined.glb`",
+      "success": false
+    },
+    {
+      "case_name": "8c8b070f79334b289b6f84f32eda66dd_combined",
+      "num_parts": 1,
+      "seed": 456,
+      "error": "string is not a file: `datasets/messy_kitchen_scenes_part2/8c8b070f79334b289b6f84f32eda66dd_combined.glb`",
+      "success": false
+    },
+    {
+      "case_name": "8c8b070f79334b289b6f84f32eda66dd_combined",
+      "num_parts": 1,
+      "seed": 789,
+      "error": "string is not a file: `datasets/messy_kitchen_scenes_part2/8c8b070f79334b289b6f84f32eda66dd_combined.glb`",
+      "success": false
+    }
+  ]
+}

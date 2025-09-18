@@ -1,0 +1,78 @@
+# PartCrafter DPO Training Configuration
+# Based on DSO finetune.py but adapted for PartCrafter with penetration score preferences
+
+# Dataset Configuration
+dataset:
+  preference_pairs_file: "/home/ran.ding/messy-kitchen/dso/messy_kitchen_data/dpo_data/messy_kitchen_configs/dpo_preference_pairs.json"
+  max_samples: null  # null for all samples
+  batch_size: 1
+  num_workers: 4
+  pin_memory: true
+  prefetch_factor: 2
+
+# Model Configuration
+model:
+  checkpoint_path: "/home/ran.ding/messy-kitchen/dso/submodules/partcrafter_ran/runs/messy_kitchen/part_1/messy_kitchen_part1_mp8_nt512"
+  use_lora: true
+  lora:
+    r: 16
+    alpha: 32
+    dropout: 0.1
+    target_modules: ["to_q", "to_k", "to_v", "to_out.0", "to_out.2"]
+
+# Training Configuration
+training:
+  learning_rate: 5e-5
+  scale_lr: false
+  lr_warmup_steps: 500
+  max_train_steps: 10000
+  gradient_accumulation_steps: 1
+  max_grad_norm: 1.0
+  
+  # Optimizer
+  use_adafactor: false
+  adam_beta1: 0.9
+  adam_beta2: 0.999
+  adam_weight_decay: 0.01
+  adam_epsilon: 1e-08
+  
+  # Scheduler
+  lr_scheduler: "constant_with_warmup"
+
+# Flow Matching Configuration
+flow_matching:
+  t_logit_normal_mu: 0.0
+  t_logit_normal_sigma: 1.0
+
+# DPO Configuration
+dpo:
+  beta: 0.1
+  sample_same_epsilon: true
+  
+# Logging and Saving
+logging:
+  log_interval: 10
+  save_interval: 1000
+  ckpt_interval: 1000
+  logger_type: "tensorboard"
+  
+# General Configuration
+general:
+  seed: 42
+  output_dir: "./outputs"
+  exp_name: "partcrafter_dpo"
+  resume_from_checkpoint: null
+  
+# Penetration Score Configuration
+penetration:
+  use_tagac_implementation: true
+  voxel_size: 0.3
+  voxel_resolution: 40
+  scene_weight: 0.7
+  per_object_weight: 0.3
+  min_penetration_diff: 0.01
+
+# Wandb Configuration
+wandb:
+  project_name: "partcrafter_dpo"
+  api_key: "ce1816bb45de1fc10f92c8bc17f2d7cc9b1a8757"

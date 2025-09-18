@@ -164,6 +164,8 @@ python -m data_preprocessing.augment_with_simulation_feedback --root_dir train_d
 # This runs on 4 NVIDIA A100s 80GB GPUs.
 
 # CUDA_VISIBLE_DEVICES=0,1,2,3 accelerate launch --multi_gpu --num_processes 4 --mixed_precision bf16 finetune.py --config configs/dpo.yaml 
+# CUDA_VISIBLE_DEVICES=7 python -m pdb finetune.py --config configs/dpo.yaml
+
 CUDA_VISIBLE_DEVICES=7 accelerate launch --num_processes 1 --mixed_precision bf16 finetune.py --config configs/dpo.yaml
 ```
 

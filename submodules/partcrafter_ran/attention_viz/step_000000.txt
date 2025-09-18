@@ -1,0 +1,2 @@
+Attention visualization checkpoint at step 0
+Timestamp: 1755705511.1577044

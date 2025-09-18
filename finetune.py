@@ -50,13 +50,53 @@ def get_model():
     return sparse_structure_flow_model
 
 
+# def create_output_folders(output_dir, config, exp_name):
+#     now = datetime.datetime.now().strftime("%Y-%m-%dT%H-%M-%S")
+#     out_dir = os.path.join(output_dir, f"{exp_name}_{now}")
+    
+#     os.makedirs(out_dir, exist_ok=True)
+#     os.makedirs(f"{out_dir}/samples", exist_ok=True)
+#     OmegaConf.save(config, os.path.join(out_dir, 'config.yaml'))
+#     return out_dir
+import os
+import datetime
+import yaml
+from typing import Any
+
+def _strip_unserializable(obj: Any, exclude_keys=({"accelerator", "_", "config"})):
+    """
+    Recursively:
+      - drops keys that are known to be problematic (exclude_keys)
+      - converts non-primitive objects to strings so YAML can dump them
+    """
+    if isinstance(obj, dict):
+        out = {}
+        for k, v in obj.items():
+            if k in exclude_keys:
+                continue
+            out[str(k)] = _strip_unserializable(v, exclude_keys)
+        return out
+    elif isinstance(obj, (list, tuple)):
+        return [_strip_unserializable(v, exclude_keys) for v in obj]
+    elif isinstance(obj, (str, int, float, bool)) or obj is None:
+        return obj
+    else:
+        # Fallback for objects (e.g., Accelerate's Accelerator)
+        return str(obj)
+
 def create_output_folders(output_dir, config, exp_name):
     now = datetime.datetime.now().strftime("%Y-%m-%dT%H-%M-%S")
     out_dir = os.path.join(output_dir, f"{exp_name}_{now}")
-    
+
     os.makedirs(out_dir, exist_ok=True)
-    os.makedirs(f"{out_dir}/samples", exist_ok=True)
-    OmegaConf.save(config, os.path.join(out_dir, 'config.yaml'))
+    os.makedirs(os.path.join(out_dir, "samples"), exist_ok=True)
+
+    # Make a YAML-safe copy of config and save it
+    safe_cfg = _strip_unserializable(config)
+    cfg_path = os.path.join(out_dir, "config.yaml")
+    with open(cfg_path, "w", encoding="utf-8") as f:
+        yaml.safe_dump(safe_cfg, f, sort_keys=False, allow_unicode=True)
+
     return out_dir
 
 
@@ -81,7 +121,7 @@ def forward_flow_matching_loss(model, x0, t, cond, eps=None, **kwargs):
 
 def forward_dpo_loss(model, ref_model, x0_win, x0_loss, t, cond, beta, sample_same_epsilon, **kwargs):
     # 0. Concatenate x0_win and x0_loss
-    x0 = torch.cat([x0_win, x0_loss], dim=0)
+    x0 = torch.cat([x0_win, x0_loss], dim=0)    # what does x0_win and x0_loss's each channel mean?
     t = torch.cat([t, t], dim=0)
     cond = torch.cat([cond, cond], dim=0)
 
